@@ -5,11 +5,25 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>JustDance</title>
-<link rel="stylesheet" href="/src/output.css">
+    <link rel="shortcut icon" href="/img/logo.png" type="image/x-icon">
+    <link rel="stylesheet" href="/src/output.css">
 </head>
 
 <body>
-
+    <header class="flex bg-white w-full px-14 items-center justify-between border-b-2 border-blue-400">
+        <div class="flex items-center">
+            <img src="/img/logo.png" alt="JustDance logo" class="w-1/5">
+            <h1 class="font-semibold text-pink-600 text-4xl">JustDance</h1>
+            <!-- npx tailwindcss -i ./src/input.css -o ./src/output.css --watchn -->
+        </div>
+        <nav class="flex items-center gap-6 justify-between ">
+            <a href="">Home</a>
+            <a href="">About</a>
+            <a href="">Events</a>
+            <a href="">Contact Us</a>
+            <button type="submit" class="p-4 bg-pink-600 border-r" ><a href="">Register Now</a></button>
+        </nav>
+    </header>
 </body>
 
 </html>
