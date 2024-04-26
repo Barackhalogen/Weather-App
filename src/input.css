@@ -1,3 +1,25 @@
 @tailwind base;
 @tailwind components;
 @tailwind utilities;
+
+span {
+  height: 4px;
+  width: 25px;
+  margin: 3px;
+  background-color: rgb(238, 117, 137);
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  /* border: 2px solid black; */
+  cursor: pointer;
+}
+
+.flexy {
+  @apply flex items-center;
+
+}
+
+section hr{
+    width: 40%;
+    
+}

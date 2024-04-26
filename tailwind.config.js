@@ -2,7 +2,15 @@
 module.exports = {
   content: ["./src/**/*.{html,js}"],
   theme: {
-    extend: {},
+    extend: {
+      backgroundImage: {
+'hero-section': "url('/img/carousel-1.jpg')",
+      },
+    },
+    colors:{
+      'orange':'#eab308',
+      'pink': '#db2777'
+    }
   },
   components: {
 btn: {

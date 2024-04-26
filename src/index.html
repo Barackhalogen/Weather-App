@@ -9,21 +9,45 @@
     <link rel="stylesheet" href="/src/output.css">
 </head>
 
-<body>
-    <header class="flex bg-white w-full px-14 items-center justify-between border-b-2 border-blue-400">
-        <div class="flex items-center">
-            <img src="/img/logo.png" alt="JustDance logo" class="w-1/5">
-            <h1 class="font-semibold text-pink-600 text-4xl">JustDance</h1>
+<body class="overflow-x-hidden">
+    <header class=" bg-white w-full md:px-14 px-5 flexy  border-b-2 overflow-x-hidden justify-between">
+        <div class=" flex items-center">
+            <img src="/img/logo.png" alt="JustDance logo" class="md:w-1/5 w-14">
+            <h1 class="font-bold text-pink md:text-4xl text-2xl">JustDance</h1>
             <!-- npx tailwindcss -i ./src/input.css -o ./src/output.css --watchn -->
         </div>
-        <nav class="flex items-center gap-6 justify-between ">
-            <a href="">Home</a>
-            <a href="">About</a>
-            <a href="">Events</a>
-            <a href="">Contact Us</a>
-            <button type="submit" class="p-4 bg-pink-600 border-r" ><a href="">Register Now</a></button>
+        <nav>
+            <div class="md:hidden p-2 border-2 border-pink rounded-lg">
+                <span></span><span></span><span></span>
+            </div>
+
+            <div class=" md:flex md:flexy md:gap-6  md:justify-between md:block hidden ">
+                <a href="">Home</a>
+                <a href="">About</a>
+                <a href="">Events</a>
+                <a href="">Contact Us</a>
+                <button type="submit" class="p-4 bg-pink border-r"><a href="">Register Now</a></button>
+            </div>
         </nav>
     </header>
+
+    <!-- main -->
+    <main>
+        <!-- hero-section -->
+        <section class="bg-hero-section bg-cover h-[50vh] flexy flex-col md:justify-normal">
+            <div class="flex text-orange">
+                <h2>Let's Dance</h2>
+                <hr class=" bg-orange ">
+            </div>
+            <h1>Once A Dancer, Is Always A Dance</h2>
+                <p>Embrace the rhythm, feel the beat,
+                    In every step, your heart will meet.
+                    Dance with passion, let your soul ignite,
+                    For once a dancer, the spirit takes flight</p>
+
+
+        </section>
+    </main>
 </body>
 
 </html>
