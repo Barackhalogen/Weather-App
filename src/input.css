@@ -16,10 +16,18 @@ span {
 
 .flexy {
   @apply flex items-center;
-
 }
 
-section hr{
-    width: 40%;
-    
+.fonts {
+  @apply text-lg text-orange font-semibold uppercase;
+}
+
+h1 {
+  font-size: 40px;
+  line-height: 50px;
+  font-weight: 900;
+}
+
+.btn{
+    @apply py-4 px-10 bg-orange mt-8 rounded-[40px] text-[16px] text-white font-medium
 }

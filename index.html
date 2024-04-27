@@ -10,11 +10,11 @@
 </head>
 
 <body class="overflow-x-hidden">
-    <header class=" bg-white w-full md:px-14 px-5 flexy  border-b-2 overflow-x-hidden justify-between">
+    <header class=" bg-white w-full md:px-14 px-5 flexy  border-none overflow-x-hidden justify-between">
         <div class=" flex items-center">
             <img src="/img/logo.png" alt="JustDance logo" class="md:w-1/5 w-14">
             <h1 class="font-bold text-pink md:text-4xl text-2xl">JustDance</h1>
-            <!-- npx tailwindcss -i ./src/input.css -o ./src/output.css --watchn -->
+            <!-- npx tailwindcss -i ./src/input.css -o ./src/output.css --watch -->
         </div>
         <nav>
             <div class="md:hidden p-2 border-2 border-pink rounded-lg">
@@ -34,17 +34,23 @@
     <!-- main -->
     <main>
         <!-- hero-section -->
-        <section class="bg-hero-section bg-cover h-[50vh] flexy flex-col md:justify-normal">
-            <div class="flex text-orange">
-                <h2>Let's Dance</h2>
-                <hr class=" bg-orange ">
+        <section
+            class="bg-hero-section bg-cover  h-[90vh] w-full flexy flex-col md:justify-normal px-8 py-16 text-center">
+            <div class="flexy gap-2 text-orange items-center justify-center w-full">
+                <h2 class="fonts">Let's Dance</h2>
+                <hr class=" bg-orange w-[30%] border-none h-[2px]">
             </div>
-            <h1>Once A Dancer, Is Always A Dance</h2>
-                <p>Embrace the rhythm, feel the beat,
-                    In every step, your heart will meet.
-                    Dance with passion, let your soul ignite,
-                    For once a dancer, the spirit takes flight</p>
+            <h1 class="text-white pb-6">Once A Dancer, Is Always A Dancer</h1>
+            <p class="text-white font-medium">Embrace the rhythm, feel the beat,
+                In every step, your heart will meet.
+                Dance with passion, let your soul ignite,
+                For once a dancer, the spirit takes flight
+            </p>
 
+            <div class="flexy  just w-full  flex-wrap ">
+                <button class="btn"><a href="">Join Us</a></button>
+                <button class="btn"><a href="">Read More</a></button>
+            </div>
 
         </section>
     </main>

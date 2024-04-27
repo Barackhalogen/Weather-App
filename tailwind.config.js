@@ -1,22 +1,18 @@
 /** @type {import('tailwindcss').Config} */
 module.exports = {
-  content: ["./src/**/*.{html,js}"],
+  content: ["./src/**/*.{html,js}", "./index.html"],
   theme: {
     extend: {
       backgroundImage: {
-'hero-section': "url('/img/carousel-1.jpg')",
+        "hero-section": "url('/img/carousel-1.jpg')",
       },
     },
-    colors:{
-      'orange':'#eab308',
-      'pink': '#db2777'
-    }
+    colors: {
+      orange: "#eab308",
+      pink: "#db2777",
+      white: "#fff",
+    },
   },
-  components: {
-btn: {
-base: 'py-2 px-4 rounded',
-primary: 'bg-custom-pink text-white font-bold'
-},
-  },
+  components: {},
   plugins: [],
-}
+};
