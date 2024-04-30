@@ -28,6 +28,6 @@ h1 {
   font-weight: 900;
 }
 
-.btn{
-    @apply py-4 px-10 bg-orange mt-8 rounded-[40px] text-[16px] text-white font-medium
-}
+/* .btn{
+    @apply py-4 px-10 mt-8 rounded-[40px] text-[16px] text-white font-medium
+} */
